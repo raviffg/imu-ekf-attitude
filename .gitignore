@@ -1,0 +1,14 @@
+build/
+*.o
+*.a
+*.so
+*.out
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.png
+*.log
+.idea/
+.vscode/
+.DS_Store
