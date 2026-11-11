@@ -30,10 +30,3 @@ Needs Eigen3 headers. On Debian: `apt install libeigen3-dev`.
   linear acceleration you are coasting on the gyro and the covariance grows.
 - Euler parameterization is fine at moderate tilt; it will gimbal-lock near
   +/-90 deg pitch. Quaternion state is the next step if this goes on acro.
-
-
-## Expanded project documentation
-
-The `docs/` directory contains project-specific design notes, verification scenario specifications, operations guides, data contracts, configuration templates, safety notes, and project reference templates.
-
-**Important:** added documents are planning and review aids. They do not claim that tests have been executed, that placeholder configurations are supported runtime profiles, or that this project is certified for physical/clinical/production deployment. Confirm interfaces and limits against implementation and measured evidence.
